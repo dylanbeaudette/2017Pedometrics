@@ -1,0 +1,21 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <CategoryNames>
+      <Category></Category>
+      <Category>#E41A1CA6</Category>
+      <Category>#8D4C6AA6</Category>
+      <Category>#377EB8A6</Category>
+      <Category>#419681A6</Category>
+      <Category>#4DAF4AA6</Category>
+      <Category>#727E76A6</Category>
+      <Category>#984EA3A6</Category>
+      <Category>#CB6651A6</Category>
+      <Category>#FF7F00A6</Category>
+      <Category>#FFBF19A6</Category>
+      <Category>#FFFF33A6</Category>
+      <Category>#D2AA2DA6</Category>
+      <Category>#A65628A6</Category>
+      <Category>#CE6B73A6</Category>
+    </CategoryNames>
+  </PAMRasterBand>
+</PAMDataset>
