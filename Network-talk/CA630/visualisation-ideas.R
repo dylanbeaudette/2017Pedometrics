@@ -1,6 +1,10 @@
 library(sf)
 library(dplyr)
 library(mapview)
+library(igraph)
+
+load('cached-mu.rda')
+load('cached-graph.rda')
 
 # Web map
 
