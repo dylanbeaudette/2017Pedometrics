@@ -93,8 +93,11 @@ Integration of geomorphic signature would be nice way to link the "empirical" (g
 
 Initialization of the network is important: by hypothetical region, collection of named soils, taxonomic information, climate, ...
 
-Integration of spatial connectivity (first neighbor) would help span "gaps" (missing linkages that would otherwise be added by an expert) or harmonize data at survey area boundaries (e.g. incompatible map units due to survey vintage).
+Integration of spatial connectivity (first neighbor) would help span "gaps" (missing linkages that would otherwise be added by an expert) or harmonize data at survey area boundaries (e.g. incompatible map units due to survey vintage). For example, here is the max spanning tree of "1st-neighbor, unweighted adjacency" associated with the map units of CA630:
 
+![](static_figures/ca630-spatial-first-neighbor-max-spanning-tree.png)
+
+For future work: compare the map representation of these "communities / clusters" to the map representation of the tabular-data based adjacency data.
 
 ### In the CA630 example:
 
