@@ -3,9 +3,8 @@
 "aquultic haploxeralfs"
 "deerflat"
 "fluventic haploxerepts"
-"haploxerepts"
-"haploxerepts coarse-loamy"
 "hetchy"
+"marblemine"
 "millvilla"
 "moccasinhill"
 "priestgrade"
@@ -15,7 +14,6 @@
 "vertic palexerolls"
 "wardsferry"
 --------------2---------------
-"anthraltic xerorthents"
 "auburn"
 "gardellones"
 "gopheridge"
@@ -31,9 +29,6 @@
 "macmerten"
 "mccarthy"
 --------------4---------------
-"aquic argixerolls"
-"typic haploxeralfs"
---------------5---------------
 "chawanakee"
 "dystroxerepts"
 "holland"
@@ -43,27 +38,26 @@
 "musick"
 "wukusick"
 "xerofluvents"
---------------6---------------
+--------------5---------------
 "goldwall"
 "ultic argixerolls"
---------------7---------------
+--------------6---------------
 "arpatutu"
 "fricot"
 "lickinfork"
-"marblemine"
 "mercercave"
 "nedsgulch"
 "sites"
 "tiger creek"
 "vertic haploxerepts"
 "wallyhill"
---------------8---------------
+--------------7---------------
 "beybek"
 "fuches"
 "mollic haploxeralfs"
 "pachic argixerolls"
 "swissranch"
---------------9---------------
+--------------8---------------
 "auberry"
 "flanly"
 "hurleton"
@@ -72,7 +66,7 @@
 "typic epiaqualfs"
 "ultic palexeralfs"
 "verjeles"
---------------10---------------
+--------------9---------------
 "amador"
 "angelscreek"
 "gillender"
@@ -81,34 +75,33 @@
 "pardee"
 "pentz"
 "typic humixerepts"
---------------11---------------
-"copperopolis"
-"donpedro"
-"rock outcrop"
-"saddlemod"
-"whiterock"
---------------12---------------
+--------------10---------------
 "fiddletown"
 "jocal"
 "mariposa"
 "typic haploxerults"
---------------13---------------
+--------------11---------------
 "crimeahouse"
 "delpiedra"
 "hennekenot"
 "typic argixerolls"
---------------14---------------
+--------------12---------------
+"copperopolis"
+"donpedro"
+"saddlemod"
+"whiterock"
+--------------13---------------
 "hornitos"
 "red bluff"
 "redding"
 "shabarudo"
---------------15---------------
+--------------14---------------
 "lithic endoaquolls"
 "oxyaquic haploxerolls"
 "typic argiaquolls"
---------------16---------------
+--------------15---------------
 "humic haploxerands"
 "ultic haploxerands"
---------------17---------------
+--------------16---------------
 "leptic haploxererts"
 "lithic haploxererts"

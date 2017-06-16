@@ -43,7 +43,7 @@ x <- subset(x, compkind != 'miscellaneous area')
 
 # remove some higher-order taxa components or other strange stuff
 # ... sweeping cruft under the rug for now ... how did some of these get in here!?
-x <- subset(x, ! compname %in% c('riparian', 'urban land', 'young gravels', 'alfic xerarents', 'orthents', 'lithic haploxeralfs', 'aquic haploxeralfs', 'ultic haploxeralfs'))
+x <- subset(x, ! compname %in% c('haploxerepts', 'rock outcrop', 'riparian', 'urban land', 'young gravels', 'alfic xerarents', 'orthents', 'lithic haploxeralfs', 'aquic haploxeralfs', 'ultic haploxeralfs', 'haploxerepts coarse-loamy', 'aquic argixerolls', 'typic haploxeralfs', 'anthraltic xerorthents'))
 
 # check: OK
 head(x)

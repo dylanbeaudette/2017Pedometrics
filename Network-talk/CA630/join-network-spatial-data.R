@@ -66,6 +66,9 @@ mu <- merge(mu, d.no.na, by.x='musym', by.y='musym')
 # filter-out polygons with no assigned cluster
 mu <- mu[which(!is.na(mu$cluster)), ]
 
+## TODO: investigate map units (musym) that aren't represented in the graph
+# x[which(x$musym %in% unique(mu[which(is.na(mu$cluster)), ]$musym)), ]
+
 
 # viz using raster methods
 r <- rasterize(mu, raster(extent(mu), resolution=90), field='cluster')
@@ -79,18 +82,22 @@ rat <- levels(r)[[1]]
 # note that the raster legend is missing 3 clusters
 rat$color <- leg$color[match(rat$ID, leg$cluster)]
 
-## TODO: add in a reasonable "name" for each cluster
-rat$name <- rat$ID
+# copy over associated legend entry
+rat$notes <- leg$notes[match(rat$ID, leg$cluster)]
 
+# make a composite legend label
+rat$legend <- paste0(rat$ID, ') ', rat$notes)
 
 # pack RAT back into raster
 levels(r) <- rat
 
 # simple plot in R, colors hard to see
-levelplot(r, col.regions=levels(r)[[1]]$color, xlab="", ylab="", att='name', maxpixels=1e5)
+png(file='graph-communities-mu-data.png', width=1600, height=1200, type='cairo', antialias = 'subpixel')
+levelplot(r, col.regions=levels(r)[[1]]$color, xlab="", ylab="", att='legend', maxpixels=1e5, colorkey=list(space='right', labels=list(cex=0.9)))
+dev.off()
 
 # save to external formats for map / figure making
-writeOGR(mu, dsn='.', layer='graph-and-mu-polygons', driver='ESRI Shapefile', overwrite_layer = TRUE)
+# writeOGR(mu, dsn='.', layer='graph-and-mu-polygons', driver='ESRI Shapefile', overwrite_layer = TRUE)
 writeRaster(r, file='mu-polygons-graph-clusters.tif', datatype='INT1U', format='GTiff', options=c("COMPRESS=LZW"), overwrite=TRUE)
 
 
