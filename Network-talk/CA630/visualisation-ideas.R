@@ -4,13 +4,14 @@ library(mapview)
 
 # Web map
 
+detach(package:plyr)
+
 # Union based on cluster ID
 mu_union <- mu %>%
   sf::st_as_sf() %>% 
   dplyr::mutate(cl = LETTERS[cluster]) %>% 
-  dplyr::group_by(cl) 
-
-mu_union %>% summarise(color = unique(color))
+  dplyr::group_by(cl) %>% 
+  summarise(color = unique(color))
 
 # Generation of the web map
 mapview(mu_union, zcol = 'cl', col.regions = mu_union$color, legend = TRUE, layer.name = "", maxpoints = npts(mu_union))
@@ -34,7 +35,7 @@ k$links <- data.frame(k$links, weight = E(g)$weight)
 
 colour_scale_data <- k$nodes %>% 
   group_by(group) %>% 
-  summarise(color = unique(color)) %>% 
+  dplyr::summarise(color = unique(color)) %>% 
   mutate(cl = LETTERS[group], color_simple = stringr::str_sub(color, start = 1, end = 7))
 
 levs <- paste(colour_scale_data$group, collapse = '\", \"')
@@ -71,10 +72,18 @@ ggplot(mu_union) +
   theme_bw()
 
 ggplot(mu_union) + 
+  geom_sf(data = mu, aes(fill = NULL), colour = "grey70", lwd = 0.25) +
   geom_sf(aes(fill = cl), colour = "grey70", lwd = 0.25) + 
   scale_fill_manual(values = colour_scale_data$color_simple) + 
   facet_wrap(~cl) +
   theme_bw()
+
+ggplot(mu_union) + 
+  geom_sf(data = mu, aes(fill = NULL), colour = "grey70", lwd = 0.25) +
+  geom_sf(aes(fill = cl), lwd = 0) + 
+  scale_fill_manual(values = colour_scale_data$color_simple) + 
+  facet_wrap(~cl) +
+  theme_bw() 
 
 # Fun with ggraph
 
