@@ -1,5 +1,6 @@
-# Stuff
+# 2017 Pierre / Dylan Pedometrics Presentations (why do we do this to ourselves?)
 
+![](https://imgs.xkcd.com/comics/state_word_map.png)
 
 ## Network Talk
 
