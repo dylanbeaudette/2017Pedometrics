@@ -1,13 +1,10 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
 
 library(shiny)
+library(magrittr)
+library(dplyr)
+library(stringr)
+library(mapview)
+library(networkD3)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
@@ -37,7 +34,7 @@ ui <- fluidPage(
          column(
            width = 6, 
            h4("Coresponding network"),
-           networkD3::forceNetworkOutput('net', width = '100%', height = "600px")
+           forceNetworkOutput('net', width = '100%', height = "600px")
          )
        ),
        
@@ -69,8 +66,6 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram
 server <- function(input, output) {
    
-  print(getwd())
-  
   # Load data
   k <- readRDS('net-d3.rda')
   mu_union <- readRDS('mu-union.rda')
@@ -88,7 +83,7 @@ server <- function(input, output) {
   colour_scale_data <- k$nodes %>% 
     group_by(group) %>% 
     summarise(color = unique(color)) %>% 
-    mutate(cl = LETTERS[group], color_simple = stringr::str_sub(color, start = 1, end = 7))
+    mutate(cl = LETTERS[group], color_simple = str_sub(color, start = 1, end = 7))
   
   levs <- paste(colour_scale_data$group, collapse = '\", \"')
   cols <- paste(colour_scale_data$color_simple, collapse = '\", \"')
