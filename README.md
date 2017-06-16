@@ -1,9 +1,24 @@
-# 2017 Pierre / Dylan Pedometrics Presentations (why do we do this to ourselves?)
+# 2017 Pierre / Dylan Pedometrics Presentations
+
+This is what we are trying to avoid:
 
 ![](https://imgs.xkcd.com/comics/state_word_map.png)
 
-## Network Talk
 
+http://www.pedometrics2017.org/
+
+
+## Mapping soilscapes using soil co-occurence networks
+
+P. Roudier, D.E. Beaudette, D.R.J. O'Neale
+
+Soils are arguably the most complex material on Earth, and present an important spatial variability. Across the landscape, different soils types will often be spatially intermingled. This is reflected by soil mapping units (SMU) being often composed of more than one soil taxa. The notion of soilscape reflects the fact that a landscape can be delineated into different such spatial units “including a limited number of soil classes that are geographically distributed according to an identifiable pattern” (Lagacherie et al., 2001).
+
+The research field of network science offers new mathematical tools to visualize and analyze existing soil survey data, and explore its complex relational interactions. In this paper, we extract and visualize pedological information by analyzing the co-occurrence of soil taxa using a network approach. 
+
+For any level of a given hierarchical soil classification system, the co-occurence of soil taxa within and between neighbouring SMUs can be described as a network graph. The structural properties of the resulting graphs can be analyzed, and tools such as community structure detection are used to classify their different nodes. Soilscapes are then delineated by mapping the identified communities back in geographical space. This approach also gives a method for quantifying the pedological complexity of different regions based on their constituent soil types, using metrics such as graph connectivity. Different levels of granularity for both the regional data and the soil classification data allow for views at different scales.
+
+Network science offers the opportunity of new insights from looking at existing data in a new way. Soil survey data from S-Map (NZ) and USDA-NRCS (USA) are used to illustrate the value and originality of these new approaches.
 
 
 ### Notes
@@ -94,6 +109,12 @@ Integration of spatial connectivity (first neighbor) would help span "gaps" (mis
   5. nodes (soil series / components) that link communities are usually common soils that occur in multiple suites of map units. this special place in the graph is probably worth investigating
 
 
-## AQP Poster
+## Algorithms for Quantitative Pedology
+
+D.E. Beaudette and P. Roudier
+
+The Algorithms for Quantitative Pedology (AQP) project was started in 2009 to organize a loosely-related set of concepts and source code on the topic of soil profile visualization, aggregation, and classification into an R package. Over the past 8 years, the project has grown into a suite of related R packages that enhance and simplify the quantitative analysis of soil profile data. Central to the AQP project is a new vocabulary of specialized functions and data structures that can accommodate the inherent complexity of soil profile information; freeing the scientist to focus on ideas rather than boilerplate data processing tasks. These functions and data structures have been extensively tested and documented, applied to projects involving hundreds of thousands of soil profiles, and deeply integrated into widely used tools such as SoilWeb. Components of the AQP project currently serve an important role in routine data analysis within the USDA-NRCS Soil Science Division. The AQP suite of R packages offer a convenient platform for bridging the gap between pedometric theory and practice.
+
+### Notes
 ... nothing yet ...
 
