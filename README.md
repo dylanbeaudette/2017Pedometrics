@@ -116,5 +116,35 @@ D.E. Beaudette and P. Roudier
 The Algorithms for Quantitative Pedology (AQP) project was started in 2009 to organize a loosely-related set of concepts and source code on the topic of soil profile visualization, aggregation, and classification into an R package. Over the past 8 years, the project has grown into a suite of related R packages that enhance and simplify the quantitative analysis of soil profile data. Central to the AQP project is a new vocabulary of specialized functions and data structures that can accommodate the inherent complexity of soil profile information; freeing the scientist to focus on ideas rather than boilerplate data processing tasks. These functions and data structures have been extensively tested and documented, applied to projects involving hundreds of thousands of soil profiles, and deeply integrated into widely used tools such as SoilWeb. Components of the AQP project currently serve an important role in routine data analysis within the USDA-NRCS Soil Science Division. The AQP suite of R packages offer a convenient platform for bridging the gap between pedometric theory and practice.
 
 ### Notes
-... nothing yet ...
+
+Thinking over some updates since 2011 / 2015:
+
+* better conversion sRGB -> Munsell (shortest distance calc. in
+CIELAB) in recent commit to GH
+
+* color signature development via soilColorSignature()
+
+* transition probabilities, genetic hz labels or soil color
+
+* national and state-level maps of soil color via munsel2rgb() -- see attached
+
+.. why am I listing this stuff here? The NEWS file has some relevant entries:
+
+https://github.com/ncss-tech/aqp/blob/master/NEWS
+
+Here are some of my favorites:
+
+* `textureTriangleSummary()`
+* `getClosestMunsellChip()`
+* `hzTransitionProbabilities()`
+* `groupedProfilePlot()`
+* `aggregateColor()`
+
+... but I am sure there are others. I'll look over the AQP poster from
+last time and see what we can cram into the new version.
+
+Also, should probably reply to Jose about kicking-off the new webpage
+for Pedometrics.
+
+
 
