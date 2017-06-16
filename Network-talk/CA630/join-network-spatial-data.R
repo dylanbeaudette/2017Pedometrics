@@ -93,7 +93,7 @@ levels(r) <- rat
 
 # simple plot in R, colors hard to see
 png(file='graph-communities-mu-data.png', width=1600, height=1200, type='cairo', antialias = 'subpixel')
-levelplot(r, col.regions=levels(r)[[1]]$color, xlab="", ylab="", att='legend', maxpixels=1e5, colorkey=list(space='right', labels=list(cex=0.65)))
+levelplot(r, col.regions=levels(r)[[1]]$color, xlab="", ylab="", att='legend', maxpixels=1e5, colorkey=list(space='right', labels=list(cex=0.9)))
 dev.off()
 
 # save to external formats for map / figure making
