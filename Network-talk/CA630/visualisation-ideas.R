@@ -72,14 +72,14 @@ ggplot(mu_union) +
   theme_bw()
 
 ggplot(mu_union) + 
-  geom_sf(data = mu, aes(fill = NULL), colour = "grey70", lwd = 0.25) +
+  geom_sf(data = st_as_sf(mu), aes(fill = NULL), colour = "grey70", lwd = 0.25) +
   geom_sf(aes(fill = cl), colour = "grey70", lwd = 0.25) + 
   scale_fill_manual(values = colour_scale_data$color_simple) + 
   facet_wrap(~cl) +
   theme_bw()
 
 ggplot(mu_union) + 
-  geom_sf(data = mu, aes(fill = NULL), colour = "grey70", lwd = 0.25) +
+  geom_sf(data = st_as_sf(mu), aes(fill = NULL), colour = "grey70", lwd = 0.25) +
   geom_sf(aes(fill = cl), lwd = 0) + 
   scale_fill_manual(values = colour_scale_data$color_simple) + 
   facet_wrap(~cl) +
