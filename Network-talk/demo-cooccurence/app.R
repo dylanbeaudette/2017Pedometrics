@@ -9,6 +9,8 @@
 
 library(shiny)
 library(mapview)
+library(dplyr)
+library(networkD3)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
