@@ -89,9 +89,9 @@ server <- function(input, output) {
   
   # Network
   colour_scale_data <- k$nodes %>% 
-    group_by(group) %>% 
-    summarise(color = unique(color)) %>% 
-    mutate(cl = LETTERS[group], color_simple = stringr::str_sub(color, start = 1, end = 7))
+    dplyr::group_by(group) %>% 
+    dplyr::summarise(color = unique(color)) %>% 
+    dplyr::mutate(cl = LETTERS[group], color_simple = stringr::str_sub(color, start = 1, end = 7))
   
   levs <- paste(colour_scale_data$group, collapse = '\", \"')
   cols <- paste(colour_scale_data$color_simple, collapse = '\", \"')
