@@ -97,7 +97,7 @@ levelplot(r, col.regions=levels(r)[[1]]$color, xlab="", ylab="", att='legend', m
 dev.off()
 
 # save to external formats for map / figure making
-# writeOGR(mu, dsn='.', layer='graph-and-mu-polygons', driver='ESRI Shapefile', overwrite_layer = TRUE)
+writeOGR(mu, dsn='mu-summary', layer='graph-and-mu-polygons', driver='ESRI Shapefile', overwrite_layer = TRUE)
 writeRaster(r, file='mu-polygons-graph-clusters.tif', datatype='INT1U', format='GTiff', options=c("COMPRESS=LZW"), overwrite=TRUE)
 
 
