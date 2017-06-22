@@ -73,7 +73,7 @@ mu.layer <- 'graph-and-mu-polygons'
 ############################################
 
 # could be 'MUKEY', 'MUSYM', or any valid column name
-mu.col <- 'cluster'
+mu.col <- 'ID'
 
 
 #########################################################

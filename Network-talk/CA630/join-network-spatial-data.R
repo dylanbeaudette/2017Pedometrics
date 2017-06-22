@@ -69,6 +69,9 @@ mu <- mu[which(!is.na(mu$cluster)), ]
 ## TODO: investigate map units (musym) that aren't represented in the graph
 # x[which(x$musym %in% unique(mu[which(is.na(mu$cluster)), ]$musym)), ]
 
+# aggregate geometry based on cluster labels
+mu.simple <- gUnionCascaded(mu, as.character(mu$cluster))
+mu.simple.spdf <- SpatialPolygonsDataFrame(mu.simple, data=data.frame(ID=sapply(slot(mu.simple, 'polygons'), slot, 'ID')), match.ID = FALSE)
 
 # viz using raster methods
 r <- rasterize(mu, raster(extent(mu), resolution=90), field='cluster')
@@ -91,13 +94,24 @@ rat$legend <- paste0(rat$ID, ') ', rat$notes)
 # pack RAT back into raster
 levels(r) <- rat
 
+# sanity-check: do the simplified polgons have the same IDs (cluster number) as raster?
+# yes
+e <- sampleRegular(r, 1000, sp=TRUE)
+e$check <- over(e, mu.simple.spdf)$ID
+e <- e@data
+e <- na.omit(e)
+all(as.character(e$layer) == as.character(e$check))
+
+
+
+
 # simple plot in R, colors hard to see
 png(file='graph-communities-mu-data.png', width=1600, height=1200, type='cairo', antialias = 'subpixel')
 levelplot(r, col.regions=levels(r)[[1]]$color, xlab="", ylab="", att='legend', maxpixels=1e5, colorkey=list(space='right', labels=list(cex=1.25)))
 dev.off()
 
 # save to external formats for map / figure making
-# writeOGR(mu, dsn='mu-summary', layer='graph-and-mu-polygons', driver='ESRI Shapefile', overwrite_layer = TRUE)
+writeOGR(mu.simple.spdf, dsn='mu-summary', layer='graph-and-mu-polygons', driver='ESRI Shapefile', overwrite_layer = TRUE)
 writeRaster(r, file='mu-polygons-graph-clusters.tif', datatype='INT1U', format='GTiff', options=c("COMPRESS=LZW"), overwrite=TRUE)
 
 
