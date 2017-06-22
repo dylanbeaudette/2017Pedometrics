@@ -84,7 +84,7 @@ mu.col <- 'cluster'
 # increase if there are un-sampled polygons
 # delineations smaller than 5 ac. may require up to 5 points / ac.
 # values > 6-7 points / ac. will only slow things down
-pts.per.acre <- 0.01
+pts.per.acre <- 0.1
 
 
 

@@ -93,11 +93,11 @@ levels(r) <- rat
 
 # simple plot in R, colors hard to see
 png(file='graph-communities-mu-data.png', width=1600, height=1200, type='cairo', antialias = 'subpixel')
-levelplot(r, col.regions=levels(r)[[1]]$color, xlab="", ylab="", att='legend', maxpixels=1e5, colorkey=list(space='right', labels=list(cex=0.9)))
+levelplot(r, col.regions=levels(r)[[1]]$color, xlab="", ylab="", att='legend', maxpixels=1e5, colorkey=list(space='right', labels=list(cex=1.25)))
 dev.off()
 
 # save to external formats for map / figure making
-writeOGR(mu, dsn='mu-summary', layer='graph-and-mu-polygons', driver='ESRI Shapefile', overwrite_layer = TRUE)
+# writeOGR(mu, dsn='mu-summary', layer='graph-and-mu-polygons', driver='ESRI Shapefile', overwrite_layer = TRUE)
 writeRaster(r, file='mu-polygons-graph-clusters.tif', datatype='INT1U', format='GTiff', options=c("COMPRESS=LZW"), overwrite=TRUE)
 
 
