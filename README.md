@@ -124,6 +124,13 @@ http://ncss-tech.github.io/AQP/
 
 ### Notes
 
+Integration of AQP:
+ 
+ * SoilWeb
+ 
+ * USDA-NRCS daily activites: soil correlation, SDQS, intial mapping, update mapping, etc.
+
+
 Thinking over some updates since 2011 / 2015:
 
 * better conversion sRGB -> Munsell (shortest distance calc. in
