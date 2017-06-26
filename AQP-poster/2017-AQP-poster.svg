@@ -16,9 +16,9 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="2017-AQP-poster.svg"
-   inkscape:export-filename="/tmp/poster-aqp.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-filename="E:\working_copies\2017Pedometrics\AQP-poster\preview.png"
+   inkscape:export-xdpi="29.870001"
+   inkscape:export-ydpi="29.870001">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -27,8 +27,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.12436912"
-     inkscape:cx="-2855.7259"
-     inkscape:cy="1190.763"
+     inkscape:cx="3005.1666"
+     inkscape:cy="3371.0278"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1246,6 +1246,69 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
+    <image
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\profile-mean-values-slices-RF.png"
+       xlink:href="aqp\profile-mean-values-slices-RF.png"
+       width="749.72192"
+       height="321.30939"
+       preserveAspectRatio="none"
+       id="image4752"
+       x="695.6261"
+       y="-1743.9104" />
+    <image
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\CA630-network-max-spanning-tree.png"
+       xlink:href="sharpshootR\CA630-network-max-spanning-tree.png"
+       y="-414.40082"
+       x="635.22205"
+       id="image4731"
+       preserveAspectRatio="none"
+       height="641.29364"
+       width="641.29364" />
+    <image
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\soil-color-transition-probabilities.png"
+       xlink:href="sharpshootR\soil-color-transition-probabilities.png"
+       y="-258.91803"
+       x="1703.7831"
+       id="image4852"
+       preserveAspectRatio="none"
+       height="467.81873"
+       width="467.81873" />
+    <image
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\soil-series-color-signature.png"
+       xlink:href="aqp\soil-series-color-signature.png"
+       y="-2195.198"
+       x="2336.4451"
+       id="image5160"
+       preserveAspectRatio="none"
+       height="407.58438"
+       width="629.05719" />
+    <image
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\rf.png"
+       xlink:href="aqp\rf.png"
+       y="-1302.1353"
+       x="42.766075"
+       id="image5116"
+       preserveAspectRatio="none"
+       height="310.04126"
+       width="620.08252" />
+    <image
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\pierre-color-sig.png"
+       xlink:href="aqp\pierre-color-sig.png"
+       y="-2191.8403"
+       x="-20.735268"
+       id="image5006"
+       preserveAspectRatio="none"
+       height="441.16791"
+       width="953.42914" />
+    <image
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\pierre-osd_dendrogram.png"
+       xlink:href="sharpshootR\pierre-osd_dendrogram.png"
+       y="-874.08624"
+       x="-22.394882"
+       id="image4830"
+       preserveAspectRatio="none"
+       height="450"
+       width="2060" />
     <flowRoot
        style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"
        id="flowRoot3185"
@@ -2146,7 +2209,7 @@
        xml:space="preserve"
        id="flowRoot7073"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:70.94999695px;line-height:120.00000477%;font-family:Calibri;-inkscape-font-specification:'Calibri, Light';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(-0.7550086,-3160.6299)"><flowRegion
+       transform="translate(9.2449914,-3160.6299)"><flowRegion
          id="flowRegion7075"><rect
            id="rect7077"
            width="623.14508"
@@ -2156,7 +2219,25 @@
          id="flowPara7079"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:72.5px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#000086;fill-opacity:1">USDA-NRCS</flowPara><flowPara
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:72.5px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#000086;fill-opacity:1"
-         id="flowPara7095">Soil Science Division</flowPara></flowRoot>    <g
+         id="flowPara7095">Soil Science Division</flowPara></flowRoot>    <image
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\GHL-2.png"
+       xlink:href="aqp\GHL-2.png"
+       y="-2217.625"
+       x="1408.3378"
+       id="image5292"
+       preserveAspectRatio="none"
+       height="772.63177"
+       width="386.31589" />
+    <image
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\GHL-1.png"
+       xlink:href="aqp\GHL-1.png"
+       y="-2205.7524"
+       x="784.28424"
+       id="image5281"
+       preserveAspectRatio="none"
+       height="458.74246"
+       width="655.34637" />
+    <g
        id="g7282">
       <path
          inkscape:connector-curvature="0"
@@ -2191,47 +2272,6 @@
              style="fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
            id="flowPara3199-4-3"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#ffffff;fill-opacity:1">specialized data structures, color conversion, re-sampling, soil profile aggregation, numerical taxonomy, ...</flowPara></flowRoot>    </g>
-    <g
-       id="g7270">
-      <path
-         inkscape:connector-curvature="0"
-         inkscape:export-ydpi="120"
-         inkscape:export-xdpi="120"
-         inkscape:export-filename="/tmp/fig.png"
-         style="fill:#294600;fill-opacity:1;stroke:none"
-         d="m 32.481,-986.9078 2853.1389,0 c 34.2482,0 61.8198,27.5717 61.8198,61.8199 l 0,41.0529 c -971.6527,-1e-4 -1943.3055,0 -2914.958247,0 L 32.481,-986.9078 Z"
-         id="path4518"
-         sodipodi:nodetypes="cccccc" />
-      <flowRoot
-         inkscape:export-ydpi="120"
-         inkscape:export-xdpi="120"
-         inkscape:export-filename="/tmp/fig.png"
-         xml:space="preserve"
-         id="flowRoot3193-72"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         transform="translate(-135.66674,-1922.0907)"><flowRegion
-           id="flowRegion3195-7"><rect
-             id="rect3197-2"
-             width="2717.2061"
-             height="378.19781"
-             x="174.55286"
-             y="943.0354"
-             style="fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
-           id="flowPara3199-9"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:80px;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';fill:#ffffff;fill-opacity:1">sharpshootR:</flowPara></flowRoot>      <flowRoot
-         xml:space="preserve"
-         id="flowRoot3193-0-9-4"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         transform="translate(414.3972,-1909.4254)"><flowRegion
-           id="flowRegion3195-5-5-6"><rect
-             id="rect3197-0-8-2"
-             width="2717.2061"
-             height="93.779579"
-             x="174.55286"
-             y="943.0354"
-             style="fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
-           id="flowPara3199-4-3-3"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#ffffff;fill-opacity:1">soil survey convenience functions, network analysis, spatial connectivity,  color signatures, ...</flowPara></flowRoot>    </g>
     <g
        id="g7258">
       <path
@@ -2277,140 +2317,32 @@
        height="220.64142"
        width="535.84344" />
     <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\amador-chord.png"
-       xlink:href="sharpshootR\amador-chord.png"
-       y="-1536.3732"
-       x="6326.2065"
-       id="image4698"
-       preserveAspectRatio="none"
-       height="720"
-       width="720" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\bama-ruston-orangeburg-MST.png"
-       xlink:href="sharpshootR\bama-ruston-orangeburg-MST.png"
-       y="-7133.8442"
-       x="5572.8242"
-       id="image4709"
-       preserveAspectRatio="none"
-       height="3000"
-       width="3000" />
-    <image
        sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\CA630-network.png"
        xlink:href="sharpshootR\CA630-network.png"
-       y="-6035.9375"
-       x="8171.7153"
+       y="-414.40082"
+       x="18.637615"
        id="image4720"
        preserveAspectRatio="none"
-       height="1350"
-       width="1350" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\CA630-network-max-spanning-tree.png"
-       xlink:href="sharpshootR\CA630-network-max-spanning-tree.png"
-       y="-4887.4565"
-       x="9229.2275"
-       id="image4731"
-       preserveAspectRatio="none"
-       height="1350"
-       width="1350" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\diagnosticFeatures-2.png"
-       xlink:href="sharpshootR\diagnosticFeatures-2.png"
-       y="1062.8715"
-       x="4385.7012"
-       id="image4753"
-       preserveAspectRatio="none"
-       height="260.13327"
-       width="297.29514" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\geomorphons-summary-via-reports.png"
-       xlink:href="sharpshootR\geomorphons-summary-via-reports.png"
-       y="-332.00543"
-       x="7942.8403"
-       id="image4775"
-       preserveAspectRatio="none"
-       height="540"
-       width="1080" />
+       height="651.34436"
+       width="651.34436" />
     <image
        sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\mineralking-set1-elevation.png"
        xlink:href="sharpshootR\mineralking-set1-elevation.png"
-       y="-1241.5723"
-       x="4730.6235"
+       y="-389.31125"
+       x="2175.7188"
        id="image4786"
        preserveAspectRatio="none"
-       height="562.5"
-       width="750" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\OSD-dend.png"
-       xlink:href="sharpshootR\OSD-dend.png"
-       y="-152.81004"
-       x="4309.9751"
-       id="image4797"
-       preserveAspectRatio="none"
-       height="500"
-       width="1000" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\osd-dend-2.png"
-       xlink:href="sharpshootR\osd-dend-2.png"
-       y="-2686.3074"
-       x="5236.5186"
-       id="image4808"
-       preserveAspectRatio="none"
-       height="450"
-       width="1080" />
+       height="592.65216"
+       width="790.20288" />
     <image
        sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\pierre-network.png"
        xlink:href="sharpshootR\pierre-network.png"
-       y="-3075.0183"
-       x="8721.9619"
+       y="-900.07843"
+       x="2030.1768"
        id="image4819"
        preserveAspectRatio="none"
-       height="1000"
-       width="1000" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\pierre-osd_dendrogram.png"
-       xlink:href="sharpshootR\pierre-osd_dendrogram.png"
-       y="-218.77887"
-       x="5622.0933"
-       id="image4830"
-       preserveAspectRatio="none"
-       height="450"
-       width="2060" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\plotSoilProfileDendrogram.png"
-       xlink:href="sharpshootR\plotSoilProfileDendrogram.png"
-       y="-2129.1235"
-       x="4455.542"
-       id="image4841"
-       preserveAspectRatio="none"
-       height="450"
-       width="1050" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\soil-color-transition-probabilities.png"
-       xlink:href="sharpshootR\soil-color-transition-probabilities.png"
-       y="-4651.0854"
-       x="5201.436"
-       id="image4852"
-       preserveAspectRatio="none"
-       height="900"
-       width="900" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\soils-by-depth-slice-pigments.png"
-       xlink:href="sharpshootR\soils-by-depth-slice-pigments.png"
-       y="-3357.2021"
-       x="4671.5923"
-       id="image4863"
-       preserveAspectRatio="none"
-       height="450"
-       width="1050" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\tp-example.png"
-       xlink:href="sharpshootR\tp-example.png"
-       y="-3435.0183"
-       x="7371.9619"
-       id="image4874"
-       preserveAspectRatio="none"
-       height="360"
-       width="1350" />
+       height="441.59677"
+       width="441.59677" />
     <image
        sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\soilDB\SDA-1.png"
        xlink:href="soilDB\SDA-1.png"
@@ -2423,8 +2355,8 @@
     <image
        sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\soilDB\see-1.png"
        xlink:href="soilDB\see-1.png"
-       y="398.91241"
-       x="1826.6073"
+       y="425.04431"
+       x="1844.6986"
        id="image4896"
        preserveAspectRatio="none"
        height="435.32846"
@@ -2463,8 +2395,8 @@
        x="1133.7454"
        id="image4973"
        preserveAspectRatio="none"
-       height="578.14648"
-       width="770.86194" />
+       height="594.73016"
+       width="792.97351" />
     <image
        sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\soilDB\loafercreek-hillpos.png"
        xlink:href="soilDB\loafercreek-hillpos.png"
@@ -2477,308 +2409,151 @@
     <image
        sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\MO-soils-aqp-demo.png"
        xlink:href="aqp\MO-soils-aqp-demo.png"
-       y="-756.61438"
-       x="-7600.1841"
+       y="-1784.7437"
+       x="0.8251524"
        id="image4995"
        preserveAspectRatio="none"
-       height="596"
-       width="850" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\pierre-color-sig.png"
-       xlink:href="aqp\pierre-color-sig.png"
-       y="-2904.6558"
-       x="-4751.7397"
-       id="image5006"
-       preserveAspectRatio="none"
-       height="566.25"
-       width="1223.75" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\profile_compare-1.png"
-       xlink:href="aqp\profile_compare-1.png"
-       y="-1236.6797"
-       x="-6005.9834"
-       id="image5017"
-       preserveAspectRatio="none"
-       height="301.79999"
-       width="435.60001" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\profile_compare-2.png"
-       xlink:href="aqp\profile_compare-2.png"
-       y="-1971.0693"
-       x="-7843.5454"
-       id="image5028"
-       preserveAspectRatio="none"
-       height="813.75"
-       width="1441.25" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\profile_compare-3.png"
-       xlink:href="aqp\profile_compare-3.png"
-       y="-2793.4902"
-       x="-5778.3169"
-       id="image5039"
-       preserveAspectRatio="none"
-       height="360"
-       width="720" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\profile-mean-values-slices.png"
-       xlink:href="aqp\profile-mean-values-slices.png"
-       y="-3225.2148"
-       x="-7953.9351"
-       id="image5050"
-       preserveAspectRatio="none"
-       height="540"
-       width="1260" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\profile-mean-values-slices-RF.png"
-       xlink:href="aqp\profile-mean-values-slices-RF.png"
-       y="395.74487"
-       x="-7827.9058"
-       id="image5061"
-       preserveAspectRatio="none"
-       height="540"
-       width="1260" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\profile-simulations-wilding-1964.png"
-       xlink:href="aqp\profile-simulations-wilding-1964.png"
-       y="-1064.6737"
-       x="-4982.5532"
-       id="image5072"
-       preserveAspectRatio="none"
-       height="800"
-       width="800" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\profile-slices-color.png"
-       xlink:href="aqp\profile-slices-color.png"
-       y="-2178.9675"
-       x="-5917.3311"
-       id="image5083"
-       preserveAspectRatio="none"
-       height="540"
-       width="1260" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\profile-slices-color-dend.png"
-       xlink:href="aqp\profile-slices-color-dend.png"
-       y="-1597.4438"
-       x="-2083.1348"
-       id="image5094"
-       preserveAspectRatio="none"
-       height="540"
-       width="1260" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\properties_by_mlra.png"
-       xlink:href="aqp\properties_by_mlra.png"
-       y="-1613.1193"
-       x="-10013.311"
-       id="image5105"
-       preserveAspectRatio="none"
-       height="700"
-       width="1200" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\rf.png"
-       xlink:href="aqp\rf.png"
-       y="-2413.6643"
-       x="-10315.34"
-       id="image5116"
-       preserveAspectRatio="none"
-       height="500"
-       width="1000" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\sjer-sfrec-slab.png"
-       xlink:href="aqp\sjer-sfrec-slab.png"
-       y="-3491.7776"
-       x="-10033.716"
-       id="image5127"
-       preserveAspectRatio="none"
-       height="630"
-       width="1080" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\slab-probabilities.png"
-       xlink:href="aqp\slab-probabilities.png"
-       y="-4730.0273"
-       x="-9078.4404"
-       id="image5138"
-       preserveAspectRatio="none"
-       height="630"
-       width="1260" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\soil-color-demo.png"
-       xlink:href="aqp\soil-color-demo.png"
-       y="3403.7979"
-       x="-6994.3765"
-       id="image5149"
-       preserveAspectRatio="none"
-       height="540"
-       width="1080" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\soil-series-color-signature.png"
-       xlink:href="aqp\soil-series-color-signature.png"
-       y="3023.6746"
-       x="-3648.657"
-       id="image5160"
-       preserveAspectRatio="none"
-       height="657"
-       width="1014" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\soil-series-color-signature-diorite.png"
-       xlink:href="aqp\soil-series-color-signature-diorite.png"
-       y="3417.5413"
-       x="-5039.7178"
-       id="image5171"
-       preserveAspectRatio="none"
-       height="609"
-       width="998" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\soilweb-mini_profiles_with_color.png"
-       xlink:href="aqp\soilweb-mini_profiles_with_color.png"
-       y="-2040.5038"
-       x="-3147.4026"
-       id="image5182"
-       preserveAspectRatio="none"
-       height="461.25"
-       width="719.0625" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\tt-low-rv-high-1.png"
-       xlink:href="aqp\tt-low-rv-high-1.png"
-       y="-2670.5039"
-       x="-2428.3401"
-       id="image5193"
-       preserveAspectRatio="none"
-       height="630"
-       width="630" />
+       height="499.51303"
+       width="712.39276" />
     <image
        sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\tt-low-rv-high-2.png"
        xlink:href="aqp\tt-low-rv-high-2.png"
-       y="-5957.9292"
-       x="-7717.1025"
+       y="-1427.1429"
+       x="960.69452"
        id="image5204"
        preserveAspectRatio="none"
-       height="630"
-       width="630" />
+       height="449.08691"
+       width="449.08691" />
     <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\25-preview.jpg"
-       xlink:href="aqp\25-preview.jpg"
-       y="1716.9528"
-       x="-5707.9639"
-       id="image5215"
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\profile-slices-color.png"
+       xlink:href="aqp\profile-slices-color.png"
+       y="-1790.135"
+       x="1740.9531"
+       id="image5083"
        preserveAspectRatio="none"
-       height="1058.75"
-       width="1000" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\aggregate-summary-as-profiles.jpg"
-       xlink:href="aqp\aggregate-summary-as-profiles.jpg"
-       y="-2581.1689"
-       x="-7862.686"
-       id="image5226"
-       preserveAspectRatio="none"
-       height="441.5625"
-       width="932.8125" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\color-signature-dend.png"
-       xlink:href="aqp\color-signature-dend.png"
-       y="1176.9528"
-       x="-4707.9639"
-       id="image5237"
-       preserveAspectRatio="none"
-       height="540"
-       width="1260" />
+       height="319.21158"
+       width="744.82703" />
     <image
        sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\common-soil-minerals.png"
        xlink:href="aqp\common-soil-minerals.png"
-       y="1969.0699"
-       x="-2251.1492"
+       y="-2173.7166"
+       x="1772.179"
        id="image5248"
        preserveAspectRatio="none"
-       height="600"
-       width="1000" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\conus_15_No_Gaps_rgb-optimized.png"
-       xlink:href="aqp\conus_15_No_Gaps_rgb-optimized.png"
-       y="1945.0121"
-       x="-7146.0376"
-       id="image5259"
-       preserveAspectRatio="none"
-       height="693.59998"
-       width="1101.6" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\effervescence-class-prob.png"
-       xlink:href="aqp\effervescence-class-prob.png"
-       y="-4627.9058"
-       x="-7318.6597"
-       id="image5270"
-       preserveAspectRatio="none"
-       height="717.1875"
-       width="628.125" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\GHL-1.png"
-       xlink:href="aqp\GHL-1.png"
-       y="-4689.312"
-       x="-4636.7402"
-       id="image5281"
-       preserveAspectRatio="none"
-       height="840"
-       width="1200" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\GHL-2.png"
-       xlink:href="aqp\GHL-2.png"
-       y="-4689.312"
-       x="-3436.7402"
-       id="image5292"
-       preserveAspectRatio="none"
-       height="1440"
-       width="720" />
+       height="367.83356"
+       width="613.05591" />
     <image
        sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\interps-dend.png"
        xlink:href="aqp\interps-dend.png"
-       y="-445.47983"
-       x="-2642.573"
+       y="-1429.3848"
+       x="1691.0049"
        id="image5303"
        preserveAspectRatio="none"
-       height="540"
-       width="900" />
+       height="402.6189"
+       width="671.03149" />
     <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\lab_summary.png"
-       xlink:href="aqp\lab_summary.png"
-       y="-4621.4878"
-       x="-6272.0029"
-       id="image5314"
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\25-preview.jpg"
+       xlink:href="aqp\25-preview.jpg"
+       y="-1424.7435"
+       x="1362.5844"
+       id="image5215"
        preserveAspectRatio="none"
-       height="1000"
-       width="900" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\loafercreek-soil-color.png"
-       xlink:href="aqp\loafercreek-soil-color.png"
-       y="710.87164"
-       x="-4334.9902"
-       id="image5325"
-       preserveAspectRatio="none"
-       height="450"
-       width="1080" />
-    <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\loafercreek-soil-color-2.png"
-       xlink:href="aqp\loafercreek-soil-color-2.png"
-       y="2021.8121"
-       x="-3656.6499"
-       id="image5336"
-       preserveAspectRatio="none"
-       height="540"
-       width="900" />
+       height="413.3089"
+       width="390.37436" />
     <image
        sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\loafercreek-soil-color-3.png"
        xlink:href="aqp\loafercreek-soil-color-3.png"
-       y="4074.7639"
-       x="-3640.6836"
+       y="-1817.7806"
+       x="2355.3074"
        id="image5347"
        preserveAspectRatio="none"
-       height="540"
-       width="900" />
+       height="381.34137"
+       width="635.56891" />
     <image
-       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\missing-data.png"
-       xlink:href="aqp\missing-data.png"
-       y="-2538.9675"
-       x="-6727.3311"
-       id="image5358"
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\amador-chord.png"
+       xlink:href="sharpshootR\amador-chord.png"
+       y="-194.22508"
+       x="1259.8999"
+       id="image4698"
        preserveAspectRatio="none"
-       height="360"
-       width="810" />
+       height="426.2576"
+       width="426.2576" />
+    <image
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\diagnosticFeatures-2.png"
+       xlink:href="sharpshootR\diagnosticFeatures-2.png"
+       y="-869.36664"
+       x="2445.3843"
+       id="image4753"
+       preserveAspectRatio="none"
+       height="439.22809"
+       width="501.97491" />
+    <image
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\effervescence-class-prob.png"
+       xlink:href="aqp\effervescence-class-prob.png"
+       y="-1402.5782"
+       x="652.66931"
+       id="image5270"
+       preserveAspectRatio="none"
+       height="410.52036"
+       width="359.54065" />
+    <g
+       id="g7270">
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/tmp/fig.png"
+         style="fill:#294600;fill-opacity:1;stroke:none"
+         d="m 32.481,-986.9078 2853.1389,0 c 34.2482,0 61.8198,27.5717 61.8198,61.8199 l 0,41.0529 c -971.6527,-1e-4 -1943.3055,0 -2914.958247,0 L 32.481,-986.9078 Z"
+         id="path4518"
+         sodipodi:nodetypes="cccccc" />
+      <flowRoot
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="/tmp/fig.png"
+         xml:space="preserve"
+         id="flowRoot3193-72"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         transform="translate(-135.66674,-1922.0907)"><flowRegion
+           id="flowRegion3195-7"><rect
+             id="rect3197-2"
+             width="2717.2061"
+             height="378.19781"
+             x="174.55286"
+             y="943.0354"
+             style="fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+           id="flowPara3199-9"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:80px;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';fill:#ffffff;fill-opacity:1">sharpshootR:</flowPara></flowRoot>      <flowRoot
+         xml:space="preserve"
+         id="flowRoot3193-0-9-4"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         transform="translate(414.3972,-1909.4254)"><flowRegion
+           id="flowRegion3195-5-5-6"><rect
+             id="rect3197-0-8-2"
+             width="2717.2061"
+             height="93.779579"
+             x="174.55286"
+             y="943.0354"
+             style="fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+           id="flowPara3199-4-3-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#ffffff;fill-opacity:1">soil survey convenience functions, network analysis, spatial connectivity,  color signatures, ...</flowPara></flowRoot>    </g>
+    <image
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\aqp\conus_15_No_Gaps_rgb-optimized.png"
+       xlink:href="aqp\conus_15_No_Gaps_rgb-optimized.png"
+       y="-1426.698"
+       x="2335.3445"
+       id="image5259"
+       preserveAspectRatio="none"
+       height="398.39432"
+       width="632.74396" />
+    <image
+       sodipodi:absref="E:\working_copies\2017Pedometrics\AQP-poster\sharpshootR\tp-example.png"
+       xlink:href="sharpshootR\tp-example.png"
+       y="-452.46521"
+       x="1198.7694"
+       id="image4874"
+       preserveAspectRatio="none"
+       height="260.56888"
+       width="977.13324" />
   </g>
 </svg>
