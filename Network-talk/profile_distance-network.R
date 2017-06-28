@@ -44,6 +44,7 @@ diag(m) <- 0
 
 
 ## compare max spanning tree (sim. matrix) vs. min spanning tree (dist. matrix)
+## should be the same: yes
 par(mar=c(1,1,3,1), mfrow=c(1,2))
 plotSoilRelationGraph(m, spanning.tree = 'max', main='Similarity Matrix\nMax Spanning Tree')
 plotSoilRelationGraph(d.m, spanning.tree = 'min', main='Distance Matrix\nMin Spanning Tree')
@@ -76,8 +77,9 @@ box()
 
 
 # more informative
+png(file='soil-profile-distance-MDS-graphs.png', type = 'cairo', antialias = 'subpixel', width=1000, height=800, res = 90)
 layout(matrix(c(1,1,1,2,3,4,5,6,7), nrow = 3, byrow = TRUE))
-layout.show(7)
+# layout.show(7)
 par(mar=c(1,1,3,1))
 
 plotProfileDendrogram(sp4, diana(d), dend.y.scale = max(d), scaling.factor = (1/max(d) * 15), y.offset = 5, width=0.15, cex.names=0.75, color='ex_Ca_to_Mg', col.label='Exchageable Ca to Mg Ratio')
@@ -86,19 +88,19 @@ plot(s$points, type='n', axes=FALSE, main='NMDS')
 text(s$points, rownames(s$points))
 box()
 
-plotSoilRelationGraph(m, spanning.tree='max', main='Max Span. Tree')
+plotSoilRelationGraph(m, spanning.tree='max', main='Max Span. Tree', vertex.label.family='sans')
 box()
 
-plotSoilRelationGraph(m, spanning.tree=0.75, main='Max Span. Tree + Edges > Q75')
+plotSoilRelationGraph(m, spanning.tree=0.75, main='Max Span. Tree + Edges > Q75', vertex.label.family='sans')
 box()
-plotSoilRelationGraph(m, spanning.tree=0.50, main='Max Span. Tree + Edges > Q50')
+plotSoilRelationGraph(m, spanning.tree=0.50, main='Max Span. Tree + Edges > Q50', vertex.label.family='sans')
 box()
-plotSoilRelationGraph(m, spanning.tree=0.25, main='Max Span. Tree + Edges > Q25')
+plotSoilRelationGraph(m, spanning.tree=0.25, main='Max Span. Tree + Edges > Q25', vertex.label.family='sans')
 box()
-plotSoilRelationGraph(m, spanning.tree=0.05, main='Max Span. Tree + Edges > Q05')
+plotSoilRelationGraph(m, spanning.tree=0.05, main='Max Span. Tree + Edges > Q05', vertex.label.family='sans')
 box()
 
-
+dev.off()
 
 
 
