@@ -23,6 +23,14 @@ Network science offers the opportunity of new insights from looking at existing 
 
 ![](https://github.com/dylanbeaudette/2017Pedometrics/raw/master/static-figures/soil-profile-distance-MDS-graphs.png)
 
+
+### Previous Work
+
+   * Hole and Campbell (1985) pp. 88-89
+   
+   * Phillips (2013, 2016)
+
+
 ### Notes
 
   1. different ways in which you can create the adjacency matrix, and
@@ -100,6 +108,14 @@ Integration of spatial connectivity (first neighbor) would help span "gaps" (mis
 ![](https://github.com/dylanbeaudette/2017Pedometrics/raw/master/static-figures/ca630-spatial-first-neighbor-max-spanning-tree.png)
 
 For future work: compare the map representation of these "communities / clusters" to the map representation of the tabular-data based adjacency data.
+
+
+## Organize This
+
+From Hole and Campbell, 1985:
+
+![](https://github.com/dylanbeaudette/2017Pedometrics/raw/master/static-figures/table_5_2_soil-landscape-analysis.png)
+
 
 
 
