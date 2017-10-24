@@ -26,9 +26,13 @@ Network science offers the opportunity of new insights from looking at existing 
 
 ### Previous Work
 
-   * Hole and Campbell (1985) pp. 88-89
+   * Hole, F.D. and J.B. Campbell. 1985. Soil Landscape Analysis (book).
    
-   * Phillips (2013, 2016)
+   * [Phillips, J. D. (2013), Evaluating taxonomic adjacency as a source of soil map uncertainty. Eur J Soil Sci, 64: 391–400. doi:10.1111/ejss.12049](http://onlinelibrary.wiley.com/doi/10.1111/ejss.12049/abstract)
+   
+   * [Phillips, J. D. (2016) Landforms as extended composite phenotypes. Earth Surf. Process. Landforms, 41: 16–26. doi: 10.1002/esp.3764](http://onlinelibrary.wiley.com/doi/10.1002/esp.3764/abstract)
+   
+   * others?
 
 
 ### Notes
@@ -112,7 +116,7 @@ For future work: compare the map representation of these "communities / clusters
 
 ## Organize This
 
-From Hole and Campbell, 1985:
+From Hole and Campbell, 1985 (pp. 88-89):
 
 ![](https://github.com/dylanbeaudette/2017Pedometrics/raw/master/static-figures/table_5_2_soil-landscape-analysis.png)
 
