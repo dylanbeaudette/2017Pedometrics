@@ -16,5 +16,15 @@
       <Category>#B16C29A6</Category>
       <Category>#C66764A6</Category>
     </CategoryNames>
+    <Histograms>
+      <HistItem>
+        <HistMin>0.5384615384615384</HistMin>
+        <HistMax>13.46153846153846</HistMax>
+        <BucketCount>13</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>1</Approximate>
+        <HistCounts>4973|11503|1303|3322|203|5815|408|2019|2844|456|1474|3059|247</HistCounts>
+      </HistItem>
+    </Histograms>
   </PAMRasterBand>
 </PAMDataset>
